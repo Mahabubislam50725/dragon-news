@@ -1,6 +1,11 @@
 import React from 'react';
 
-const CarrerPage = () => {
+export const metadata = {
+  title: "Dragon News - Career",
+ 
+};
+
+const CareerPage = () => {
     return (
         <div>
             Career Page
@@ -8,4 +13,4 @@ const CarrerPage = () => {
     );
 };
 
-export default CarrerPage;
+export default CareerPage;
